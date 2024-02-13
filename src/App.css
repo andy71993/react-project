@@ -1,1 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #F4CE14;
+    color: #333333;
+}
+
+#root{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(6.26rem, 1fr));
+    gap: 1.25rem;
+}
+
+img{
+    width: 200px;
+    height:100px;
+}
+
+/* .container{
+    width: inherit;
+    height: inherit;
+    gap: 1.25rem;
+    background-color: aliceblue;
+} */
+
+header{
+    display: flex;
+    grid-column: 3/5;
+    grid-row: 1/1;
+    align-items: center;
+    justify-content: start;
+}
+
+/* header .logo{
+    width: 15rem;
+} */
+.navbar{
+    display: flex;
+    grid-column: 6/11;
+    grid-row: 1/1;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar .nav-item{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+main{
+    grid-column: 1/13;
+    grid-row: 2/2;
+}
+footer{
+    grid-column: 1/13;
+    grid-row: 3/3;
+}
+
+footer nav .nav-item{
+    display: block;
+}
+
+/* footer .contact{
+    background-color: #495E57;
+    padding: 1rem 10rem;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    color: #000000;
+} */
+
+/* footer .doormat .nav-item, a{
+    text-decoration: none;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+} */
+
+/* footer article p{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.header, .navbar, .main{
+} */
+
+h1,h2,h3{
+    font-family: 'Markazi Text', serif;
+}
 

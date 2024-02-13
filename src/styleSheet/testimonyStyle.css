@@ -1,0 +1,65 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    background-color: #495E57;
+    padding: 2rem 0;
+}
+.testimony{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 12.5rem;
+}
+.testimony img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+
+
+/* highlights */
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(6.26rem, 1fr));
+    gap: 1.25rem;
+    background-color: #495E57;
+    padding: 2rem 0;
+    height: 18rem;
+    margin-bottom: 8rem;
+}
+
+.highlight :nth-child(1){
+    grid-column: 3/8;
+}
+
+.highlight :nth-child(2){
+    grid-column: 8/11;
+}
+
+.highlight h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.highlight h3{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.highlight img{
+    height: 20rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.highlight button{
+    height: 2.5rem;
+    width: 12.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+
+
+

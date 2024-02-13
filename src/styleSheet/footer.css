@@ -1,0 +1,76 @@
+
+.aboutSec{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(6.26rem, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 10rem;
+}
+
+.aboutSec :nth-child(1){
+    grid-column: 3/6;
+}
+.aboutSec :nth-child(2){
+    grid-column: 6/11;
+}
+
+.aboutSec img{
+    border-radius: 1rem;
+    width: 16.875rem;
+    height: 14.625rem;
+    margin-top: 1.5rem;
+}
+
+.imgOne{
+    position: relative;
+    top: 7rem;
+    left: 7.5rem;
+}
+
+.aboutSec h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.aboutSec h3{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.aboutSec p{
+    width: 12.5rem;
+}
+
+/* contact section */
+
+.contactSec{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(6.26rem, 1fr));
+    gap: 1.25rem;
+    background-color: #495E57;
+    padding: 2rem 0;
+    line-height: 2;
+}
+
+.contactCont{
+    grid-column: 3/11;
+    display: flex;
+}
+
+.contactCont h3{
+    font-size: 1.5rem;
+}
+
+.contactCont :nth-child(2){
+    margin-right: 5rem;
+}
+
+.contactCont :nth-child(3){
+    margin-right: 5rem;
+}
+
+.contactSec img{
+    border-radius: 1rem;
+    width: 12.4rem;
+    height: 14.625rem;
+    margin-right: 1rem;
+}

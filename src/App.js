@@ -2,22 +2,19 @@ import About from './About';
 import './App.css';
 import Home from './Home';
 import { Link, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
 import Nav from './components/Nav';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Header>
-
-      </Header>
-      <Nav>
-        <Link to='/' className='nav-item'>Home</Link>
-        <Link to='/about' className='nav-item'>About</Link>
-      </Nav>
+      <Header />
+      <Nav className={'navbar'}/>
+      <Footer />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/' element={<Home className='main'/>} />
+        <Route path='/about' element={<About className='main'/>} />
       </Routes>
     </>
   );
